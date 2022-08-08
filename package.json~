@@ -1,0 +1,27 @@
+{
+  "name": "spa_local_server",
+  "bin": "main.js",
+  "version": "1.0.0",
+  "description": "local server for SPA ",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pkg": {
+    "assets": [
+      "dist/**/*"
+    ],
+    "output": "dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "pkg": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
