@@ -11,7 +11,7 @@
   },
   "pkg": {
     "assets": [
-      "src/**/*"
+      "dist/**/*"
     ],
     "output": "dist"
   },
